@@ -1,0 +1,195 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px) {
+	#suond {
+		position: relative;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	#suond .logo {
+		margin: 0 0 0 1.5rem;
+	}
+
+	#suond .menu {
+		display: none;
+	}
+
+	#suond .icon {
+		display: block;
+		color: #fff;
+		font-size: 2rem;
+		padding: 3rem 3rem 0 0;
+	}
+
+	#suond .suond-clound h1 {
+		font-size: 2.5rem;
+	}
+
+	#suond .open h2 a {
+		display: inline;
+		width: 100%;
+	}
+
+	#suond .container-dowload h2 {
+		display: inline;
+		width: 90%;
+		position: absolute;
+		left: 5%;
+	}
+
+	/*Category*/
+	#category {
+		position: relative;
+		min-height: 650px;
+	}
+
+	#category .category-list h1 {
+		font-size: 2.1rem;
+	}
+
+	#category .category-list h3 {
+		position: absolute;
+		top: 5rem;
+		left: 13rem;
+	}
+
+	#category .list-item {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#category ul.flex-item li {
+		width: 50%;
+		float: none;
+		display: block;
+	}
+
+	#category ul.flex-item li {
+		float: left;
+		display: inline-block;
+	}
+
+	#category ul.flex-item li i a,
+	#category ul.flex-item li i {
+		font-size: .7rem;
+	}
+
+	/*Top ring*/
+	#topring {
+		position: relative;
+	}
+
+	#topring .rington h1 {
+		font-size: 2.1rem;
+	}
+
+	#topring .rington h2,
+	#topring .rington h3 {
+		position: absolute;
+		left: 13rem;
+	}
+
+	#topring .top-list ul {
+		flex-direction: column;
+	}
+
+	#topring .top-list ul li {
+		margin-bottom: 15px;
+	}
+
+	/* HotRing */
+
+	#hotring {
+		position: relative;
+	}
+
+	#hotring .title h3 {
+		position: absolute;
+		left: 12.5rem;
+	}
+
+	#hotring .title h1 {
+		font-size: 2.1rem;
+	}
+
+	#hotring .check {
+		width: 96%;
+	}
+
+	#hotring .bg-up {
+		position: absolute;
+		left: 6rem;
+		width: 60%;
+	}
+
+	#hotring .play-list {
+		width: 96%;
+	}
+
+	#hotring .check-list table,tr,td {
+		padding: 0;
+		margin: 0;
+	}
+
+	#hotring .check-list table {
+		width: 96%;
+	}
+
+	#hotring .check-list table tr,td {
+		padding: 5px 2px;
+		font-size: 1rem;
+	}
+
+	/*Best Tons*/
+
+	#bestring {
+		position: relative;
+	}
+
+	#bestring h3 {
+		position: absolute;
+		top: 3.5rem;
+		left: 12rem;
+	}
+
+	#bestring h1 {
+		font-size: 2.1rem;
+	}
+
+	#bestring ul.item li {
+		float: none;
+		width: 96%;
+	}
+
+}
+
+/*Table*/
+
+@media screen and (max-width: 924px) {
+	#suond {
+		display: ;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	#suond .logo {
+		padding: 1rem 3rem;
+	}
+
+	#suond .menu ul li a {
+		display: inline-block;
+		font-size: .7rem;
+		margin-right: 1rem;
+		margin-top: 1rem;
+		padding: 0;
+	}
+}
